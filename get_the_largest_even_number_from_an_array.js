@@ -10,12 +10,14 @@
 const getTheLargest = (arr) => {
   let evens = [];
 
+  // Get all the even numbers from arr
   for (const num of arr) {
     if (num % 2 === 0) {
       evens.push(num);
     }
   }
 
+  // Return -1 if no even number is found, else sort the evens array in ascending order and return the last index value which should be the largest even number.
   if (evens.length === 0) {
     return -1;
   } else {
@@ -25,3 +27,4 @@ const getTheLargest = (arr) => {
 }
 
 console.log(getTheLargest([2,3,4,10,5,8]));
+console.log(getTheLargest([3,1,9,17]));
