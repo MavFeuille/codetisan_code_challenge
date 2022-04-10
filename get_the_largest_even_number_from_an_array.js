@@ -17,7 +17,9 @@ const getTheLargest = (arr) => {
     }
   }
 
-  // Return -1 if no even number is found, else sort the evens array in ascending order and return the last index value which should be the largest even number.
+  /* Return -1 if no even number is found, 
+     else sort the evens array in ascending order and return the last index value which should be the largest even number.
+  */
   if (evens.length === 0) {
     return -1;
   } else {
