@@ -8,5 +8,16 @@
 */
 
 const getTheLargest = (arr) => {
+  let evens = [];
+
+  for (const num of arr) {
+    if (num % 2 === 0) {
+      evens.push(num);
+    }
+    console.log("evens: ", evens);
+  }
+
   
 }
+
+console.log(getTheLargest([2,3,4,10,5,8]));
