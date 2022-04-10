@@ -6,3 +6,7 @@
     Output: 10
     Explanation: The largest even number in the array is 10.
 */
+
+const getTheLargest = (arr) => {
+  
+}
