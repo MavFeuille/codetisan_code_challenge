@@ -17,16 +17,16 @@ const getTheLargest = (arr) => {
     }
   }
 
-  /* Return -1 if no even number is found, 
+  /* Return -1 if no even number is found,
      else sort the evens array in ascending order and return the last index value which should be the largest even number.
   */
   if (evens.length === 0) {
     return -1;
   } else {
-  evens.sort((a, b) => a - b)
-  return evens.pop();
+    evens.sort((a, b) => a - b);
+    return evens.pop();
   }
-}
+};
 
 console.log(getTheLargest([2,3,4,10,5,8]));
 console.log(getTheLargest([3,1,9,17]));
