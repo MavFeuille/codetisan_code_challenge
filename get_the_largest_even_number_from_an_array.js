@@ -14,10 +14,14 @@ const getTheLargest = (arr) => {
     if (num % 2 === 0) {
       evens.push(num);
     }
-    console.log("evens: ", evens);
   }
 
-  
+  if (evens.length === 0) {
+    return -1;
+  } else {
+  evens.sort((a, b) => a - b)
+  return evens.pop();
+  }
 }
 
 console.log(getTheLargest([2,3,4,10,5,8]));
