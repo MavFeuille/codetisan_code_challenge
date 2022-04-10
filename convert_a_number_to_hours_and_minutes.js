@@ -8,9 +8,8 @@
 
 const covertTime = (num) => {
   let hour = Math.floor(num / 60);
-  console.log("🚀 ~ file: convert_a_number_to_hours_and_minutes.js ~ line 11 ~ covertTime ~ hour", hour)
   let minutes = num - hour * 60;
   return `${hour}:${minutes}`;
 }
 
-console.log(covertTime(235));
+console.log(covertTime(1060));
