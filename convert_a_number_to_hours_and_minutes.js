@@ -10,7 +10,7 @@ const covertTime = (num) => {
   let hour = Math.floor(num / 60);
   let minutes = num - hour * 60;
   return `${hour}:${minutes}`;
-}
+};
 
 console.log(covertTime(235));
 console.log(covertTime(1060));
