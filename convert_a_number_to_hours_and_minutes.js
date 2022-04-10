@@ -12,4 +12,5 @@ const covertTime = (num) => {
   return `${hour}:${minutes}`;
 }
 
+console.log(covertTime(235));
 console.log(covertTime(1060));
