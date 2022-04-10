@@ -5,3 +5,9 @@
     Output: '3:55'
     Explanation: 235 is equal to 3 hours and 55 minutes.
 */
+
+const covertTime = (num) => {
+  let hour = Math.floor(num / 60);
+  let minutes = num - hour * 60;
+  return `${hour}:${minutes}`;
+}
