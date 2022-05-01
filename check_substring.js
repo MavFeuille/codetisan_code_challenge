@@ -3,5 +3,7 @@
 */
 
 const checkString = (str, search) => {
-
+  let newStr = str.toLowerCase();
+  console.log("🚀 ~ file: check_substring.js ~ line 7 ~ checkString ~ newStr", newStr);
+  
 };
