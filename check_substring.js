@@ -3,8 +3,10 @@
 */
 
 const checkString = (str, search) => {
-  let newStr = str.toLowerCase();
-  console.log("🚀 ~ file: check_substring.js ~ line 7 ~ checkString ~ newStr", newStr);
+  let strLowerCase = str.toLowerCase();
+//   console.log("🚀 ~ file: check_substring.js ~ line 7 ~ checkString ~ newStr", newStr);
+  let searchLowerCase = search.toLowerCase();
+  console.log("🚀 ~ file: check_substring.js ~ line 9 ~ checkString ~ searchLowerCase", searchLowerCase)
   
 };
 
