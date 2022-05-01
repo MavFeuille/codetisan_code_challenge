@@ -7,3 +7,5 @@ const checkString = (str, search) => {
   console.log("🚀 ~ file: check_substring.js ~ line 7 ~ checkString ~ newStr", newStr);
   
 };
+
+console.log(checkString('Codetisan', 'code'));
