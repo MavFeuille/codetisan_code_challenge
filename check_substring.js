@@ -10,4 +10,5 @@ const checkString = (str, search) => {
   
 };
 
-console.log(checkString('Codetisan', 'code'));
+// console.log(checkString('Codetisan', 'code'));
+console.log(checkString('source code', 'CODE'));
